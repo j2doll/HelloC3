@@ -18,11 +18,22 @@
 
 	<script type="text/javascript">
 var chart = c3.generate({
-		data: {
-				url: 'data.csv',
-				types: 'line',
-				x: 'age'
-		  }
+
+data: {
+	url: 'data.csv',
+	types: 'line',
+	x: 'age'
+},
+
+grid: {
+	x: {
+		show: true
+	},
+	y: {
+		show: true
+	}
+}
+
 });
 	</script>
 
