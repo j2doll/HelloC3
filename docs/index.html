@@ -9,33 +9,50 @@
 	<!-- Load c3.css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.6/c3.css">
 
+	<!-- css for 'regions' -->
 	<link rel="stylesheet" type="text/css" href="region.css">
 </head>
+
 <body>
-	<div id="chart"></div> <!-- Prepare the element to bind the chart: -->
 
-	<!-- Load d3.js and c3.js -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.6/c3.min.js"></script>
+<div id="chart"></div> <!-- Prepare the element to bind the chart: -->
 
-	<script type="text/javascript">
+<!-- Load d3.js and c3.js -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.6/c3.min.js"></script>
+
+<script type="text/javascript">
 var chart = c3.generate({
 
 data: {
-	url: 'data.csv', // load data file
+	url: 'data.csv', // load data file(csv format)
 	types: 'line',
 	x: 'age', // x is 'age'
 },
 
-grid: {	x: { show: true, },	y: { show: true, }, },
+grid: {
+	x: {
+		lines: [
+			{value: 10, text: '10'},
+			{value: 20, text: '20'},
+			{value: 30, text: '30'},
+			{value: 40, text: '40'},
+			{value: 50, text: '50'},
+			{value: 60, text: '60'},
+			{value: 70, text: '70'},
+			{value: 80, text: '80'},
+			{value: 90, text: '90'},
+		]
+	}
+},
 
-regions: [ // see region.css
+regions: [ // see 'region.css'
 	{ axis: 'x', start: 0, end: 10, class: 'region10' },
 	{ axis: 'x', start: 10, end: 20, class: 'region20' },
 ],
 
 });
-	</script>
+</script>
 
 </body>
 
