@@ -22,7 +22,7 @@ var chart = c3.generate({
 data: {
 	url: 'data.csv',
 	types: 'line',
-	x: 'age'
+	x: 'age',
 },
 
 grid: {
@@ -32,7 +32,11 @@ grid: {
 	y: {
 		show: true
 	}
-}
+},
+
+regions: [
+        {axis: 'x', start: 0, end: 11, class: 'regionX'},
+    ]
 
 });
 	</script>
