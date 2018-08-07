@@ -22,15 +22,12 @@
 var chart = c3.generate({
 
 data: {
-	url: 'data.csv',
+	url: 'data.csv', // load data file
 	types: 'line',
-	x: 'age',
+	x: 'age', // x is 'age'
 },
 
-grid: {
-	x: { show: true, },
-	y: { show: true, },
-},
+grid: {	x: { show: true, },	y: { show: true, }, },
 
 regions: [ // see region.css
 	{ axis: 'x', start: 0, end: 10, class: 'region10' },
