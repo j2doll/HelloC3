@@ -18,19 +18,13 @@
 
 	<script type="text/javascript">
 	var chart = c3.generate({
-
 		data: {
 			x: 'age',
 			columns: [
 			    ['age', 0, 1, 2 ],
 					['population', 329008, 383327, 429959	]
 				]
-		  },
-
-  onclick: function (d, element) { console.log("onclick", d, element); },
-  onmouseover: function (d) { console.log("onmouseover", d); },
-  onmouseout: function (d) { console.log("onmouseout", d); },
-}
+		  }
 });
 	</script>
 
