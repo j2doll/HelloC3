@@ -1,13 +1,13 @@
 /* region.css */
 
-.c3-region.region10 { fill: rgb(255,  0,  0); }
-.c3-region.region20 { fill: rgb(  0,255,  0); }
-.c3-region.region30 { fill: rgb(  0,  0,255); }
-.c3-region.region40 { fill: rgb(  0,  0,  0); }
-.c3-region.region50 { fill: rgb(255,255,255); }
-.c3-region.region60 { fill: rgb(  0,  0,  0); }
-.c3-region.region70 { fill: rgb(255,255,255); }
-.c3-region.region80 { fill: rgb(  0,  0,  0); }
-.c3-region.region90 { fill: rgb(255,255,255); }
-.c3-region.region00 { fill: rgb(  0,  0,  0); }
+.c3-region.region10 { fill: rgb( 70,  0,  0); }
+.c3-region.region20 { fill: rgb( 90,  0,  0); }
+.c3-region.region30 { fill: rgb(110,  0,  0); }
+.c3-region.region40 { fill: rgb(130,  0,  0); }
+.c3-region.region50 { fill: rgb(150,  0,  0); }
+.c3-region.region60 { fill: rgb(170,  0,  0); }
+.c3-region.region70 { fill: rgb(190,  0,  0); }
+.c3-region.region80 { fill: rgb(210,  0,  0); }
+.c3-region.region90 { fill: rgb(230,  0,  0); }
+.c3-region.region00 { fill: rgb(255,  0,  0); }
 
