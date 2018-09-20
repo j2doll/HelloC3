@@ -1,9 +1,13 @@
 /* region.css */
 
-.c3-region.region10 {
-  fill: red;
-}
+.c3-region.region10 { fill: rgba(255,  0,  0, 1.0); }
+.c3-region.region20 { fill: rgba(  0,255,  0, 1.0); }
+.c3-region.region30 { fill: rgba(255,255,255, 1.0); }
+.c3-region.region40 { fill: rgba(  0,  0,  0, 1.0); }
+.c3-region.region50 { fill: rgba(255,255,255, 1.0); }
+.c3-region.region60 { fill: rgba(  0,  0,  0, 1.0); }
+.c3-region.region70 { fill: rgba(255,255,255, 1.0); }
+.c3-region.region80 { fill: rgba(  0,  0,  0, 1.0); }
+.c3-region.region90 { fill: rgba(255,255,255, 1.0); }
 
-.c3-region.region20 {
-  fill: orange;
-}
+
