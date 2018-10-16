@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>HelloC3</title>
-	<meta name="description" content="what is this">
-	<meta name="author" content="who am i">
+	<meta name="description" content="Hello, c3.js">
+	<meta name="author" content="j2doll">
 
 	<!-- Load c3.css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.6/c3.css">
@@ -44,6 +44,18 @@ regions: [ // see 'region.css' for class
 	{ axis: 'y', start: 800000, end:  900000, class: 'region90' },
 	{ axis: 'y', start: 900000, end: 1000000, class: 'region00' },
 ], 
+
+grid: {
+	x: {
+		show: true,
+		lines: [
+			{value: 50, text: 'fifty'},
+    	]
+	},
+	y: {
+		show: true
+	}
+},
 
 });
 
