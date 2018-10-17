@@ -1,6 +1,7 @@
 # The Population of South Korea :kr: 대한민국 인구
 
 ## Introduction :kr: 소개
+![](docs/flag-for-south-korea_1f1f0-1f1f7.png)
 - It is a simple example site that graphs the population of South Korea. 
 - :kr: 대한민국의 인구를 그래프로 보여주는 간단한 예제 싸이트입니다.
 
