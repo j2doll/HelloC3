@@ -2,8 +2,8 @@
 
 ## Introduction :kr: 소개
 ![](docs/flag-for-south-korea_1f1f0-1f1f7.png)
-- It is a simple example site that graphs the population of South Korea. (2018) 
-- :kr: 대한민국의 인구를 그래프로 보여주는 간단한 예제 싸이트입니다. (2018)
+- It is a site that graphs the population of South Korea. (2018) 
+- :kr: 대한민국의 인구를 그래프로 보여주는 싸이트입니다. (2018)
 
 ## Page and link :kr: 페이지 및 링크
 - source: [https://github.com/j2doll/Population-of-South-Korea](https://github.com/j2doll/Population-of-South-Korea) 
