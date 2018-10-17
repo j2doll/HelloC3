@@ -13,7 +13,7 @@
 - javascript
 - c3.js : D3-based reusable chart library. 
 
-## How to aaply :kr: 활용하는 방법
+## How to apply :kr: 활용하는 방법
 - Put the following code in the html code you want to apply. 
 - :kr: 다음 코드를 활용하려는 html 코드에 넣으세요. 
 
